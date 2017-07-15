@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.c_me"
+    android:versionCode="1"
+    android:versionName="9.31" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <compatible-screens>
+    </compatible-screens>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Select"
+            android:label="@string/title_activity_select" >
+        </activity>
+        <activity
+            android:name=".KFC"
+            android:label="@string/title_activity_kfc" >
+        </activity>
+        <activity
+            android:name=".GridViewDemoActivity"
+            android:label="@string/title_activity_grid_view_demo" >
+        </activity>
+        <activity
+            android:name=".FullImageActivity"
+            android:label="@string/title_activity_full_image" >
+        </activity>
+        <activity
+            android:name=".SQL"
+            android:label="@string/title_activity_sql" >
+        </activity>
+        <activity
+            android:name=".Large"
+            android:label="@string/title_activity_large" >
+        </activity>
+        <activity
+            android:name=".OpenCV"
+            android:label="@string/title_activity_open_cv" >
+        </activity>
+        <activity
+            android:name=".SMS"
+            android:label="@string/title_activity_sms" >
+
+            <!--
+Added 
+            <intent-filter>
+<action android:name="android.intent.action.VIEW"></action>
+<data android:scheme="http"></data>
+<category android:name="android.intent.category.DEFAULT"></category>
+</intent-filter>
+            END added
+            -->
+        </activity>
+        <activity
+            android:name=".CvFinal"
+            android:label="@string/title_activity_cv_final" >
+        </activity>
+        <activity
+            android:name=".Xzero"
+            android:label="@string/title_activity_xzero" >
+        </activity>
+        <activity
+            android:name=".Weather"
+            android:label="@string/title_activity_weather" >
+        </activity>
+        <activity
+            android:name=".BoofCv"
+            android:label="@string/title_activity_boof_cv" >
+        </activity>
+        <activity
+            android:name=".Guess2"
+            android:label="@string/title_activity_guess2" >
+        </activity>
+        <activity
+            android:name=".Emailme"
+            android:label="@string/title_activity_emailme" >
+        </activity>
+        <activity
+            android:name=".Guess3"
+            android:label="@string/title_activity_guess3" >
+        </activity>
+        <activity
+            android:name=".GuessWaze"
+            android:label="@string/title_activity_guess_waze" >
+        </activity>
+        <activity
+            android:name=".Guesswaze"
+            android:label="@string/title_activity_guesswaze" >
+        </activity>
+        <activity
+            android:name=".GuessWazeShoot"
+            android:label="@string/title_activity_guess_waze_shoot" >
+        </activity>
+        <activity
+            android:name=".Gallery"
+            android:label="@string/title_activity_gallery" >
+        </activity>
+        <activity
+            android:name=".Canvas"
+            android:label="@string/title_activity_canvas" >
+        </activity>
+        <activity
+            android:name=".CanvasMe"
+            android:label="@string/title_activity_canvas_me" >
+        </activity>
+        <activity
+            android:name=".Drawcanvas"
+            android:label="@string/title_activity_drawcanvas" >
+        </activity>
+        <activity
+            android:name=".AnimationView"
+            android:label="@string/title_activity_animation_view" >
+        </activity>
+        <activity
+            android:name=".Chat"
+            android:label="@string/title_activity_chat" >
+        </activity>
+        <activity
+            android:name=".ChatInsert"
+            android:label="@string/title_activity_chat_insert" >
+        </activity>
+        <activity
+            android:name=".ChatInsertM"
+            android:label="@string/title_activity_chat_insert_m" >
+        </activity>
+        <activity
+            android:name=".GPS"
+            android:label="@string/title_activity_gps" >
+        </activity>
+        <activity
+            android:name=".GPSTOOL"
+            android:label="@string/title_activity_gpstool" >
+        </activity>
+        <activity
+            android:name=".ObjAnimator"
+            android:label="@string/title_activity_obj_animator" >
+        </activity>
+        <activity
+            android:name=".Generated"
+            android:label="@string/title_activity_generated" >
+        </activity>
+        <activity
+            android:name=".Generated22"
+            android:label="@string/title_activity_generated22" >
+        </activity>
+        <activity
+            android:name=".Generated33"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_generated33" >
+        </activity>
+        <activity
+            android:name=".MP3PLAYER"
+            android:label="@string/title_activity_mp3_player" >
+        </activity>
+        <activity
+            android:name=".MPPLAYER"
+            android:label="@string/title_activity_mpplayer" >
+        </activity>
+        <activity
+            android:name=".MPPLAY"
+            android:label="@string/title_activity_mpplay" >
+        </activity>
+
+        <!-- Mp3 Player uses Portrait Oreintation and  singleTask -->
+        <activity
+            android:name=".MpPlay"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_mp_play"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+
+            <!-- Added -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="audio/*" />
+            </intent-filter>
+            <!-- END ADDED -->
+        </activity>
+        <activity
+            android:name=".ListViewRR"
+            android:label="@string/title_activity_list_view" >
+        </activity>
+        <activity
+            android:name=".StopWatch"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_stop_watch" >
+        </activity>
+        <activity
+            android:name=".StoppWatch"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_stopp_watch" >
+        </activity>
+        <activity
+            android:name=".Battery1"
+            android:label="@string/title_activity_battery1" >
+        </activity>
+        <activity
+            android:name=".Parser"
+            android:label="@string/title_activity_parser"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Touch1"
+            android:label="@string/title_activity_touch1" >
+        </activity>
+        <activity
+            android:name=".TouchMe"
+            android:label="@string/title_activity_touch_me" >
+        </activity>
+        <activity
+            android:name=".Touch31"
+            android:label="@string/title_activity_touch31" >
+        </activity>
+        <activity
+            android:name=".WifiScan"
+            android:label="@string/title_activity_wifi_scan" >
+        </activity>
+        <activity
+            android:name=".Speech"
+            android:label="@string/title_activity_speech"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Color"
+            android:label="@string/title_activity_color" >
+        </activity>
+        <activity
+            android:name=".ColorMe"
+            android:label="@string/title_activity_color_me" >
+        </activity>
+        <activity
+            android:name=".Dragg"
+            android:label="@string/title_activity_dragg" >
+        </activity>
+        <activity
+            android:name=".DragSplash"
+            android:label="@string/title_activity_drag_splash" >
+        </activity>
+        <activity
+            android:name=".DragFly"
+            android:label="@string/title_activity_drag_fly" >
+        </activity>
+        <activity
+            android:name=".PlaneFly"
+            android:label="@string/title_activity_plane_fly" >
+        </activity>
+        <activity
+            android:name=".Drag931"
+            android:label="@string/title_activity_drag931" >
+        </activity>
+        <activity
+            android:name=".Dragging"
+            android:label="@string/title_activity_dragging" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+</manifest>
