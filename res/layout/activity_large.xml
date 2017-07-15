@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical" 
+android:id="@+id/relativeLayoutG">
+
+    
+    
+    
+  <!-- Linear Horizont -->  
+
+     <LinearLayout
+         android:id="@+id/linearLayoutSMS"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="0pt"
+         android:layout_marginRight="0pt"
+         android:layout_marginTop="1pt"
+         android:background="@color/whiteColor"
+         android:orientation="horizontal" >
+
+         <Button
+             android:id="@+id/btn_take_camera"
+             android:layout_width="95dp"
+             android:layout_height="match_parent"
+             android:layout_marginLeft="9dp"
+             android:layout_marginTop="1dp"
+             android:text="Take From Camera"
+             android:typeface="sans" />
+
+         <Button
+             android:id="@+id/btn_select_gallery"
+             android:layout_width="95dp"
+             android:layout_height="match_parent"
+             android:layout_marginLeft="9dp"
+             android:layout_marginTop="1dp"
+             android:text="Select from Gallery"
+             android:typeface="sans" />
+
+         <Button
+             android:id="@+id/saveme"
+             android:layout_width="95dp"
+             android:layout_height="match_parent"
+             android:layout_marginLeft="9dp"
+             android:layout_marginTop="7dp"
+             android:layout_weight="0.16"
+             android:onClick="onSave"
+             android:text="SaveMe" />
+     </LinearLayout>
+    
+<!--END Linear Horizont --> 
+    
+    
+
+<!-- surface+photo -->
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   android:background="@drawable/kvv931" 
+    android:id="@+id/relativeLayout1">
+<ImageView
+android:id="@+id/imageView1"
+android:layout_gravity="center"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:scaleType="centerInside"
+  />    <!-- android:background="@layout/round_corner" -->
+</LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+

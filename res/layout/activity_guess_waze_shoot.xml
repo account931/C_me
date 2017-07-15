@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.c_me.GuessWazeShoot" >
+
+
+    <!-- 3 amin Waze -->
+    <ImageView
+        android:id="@+id/imageViewWaze"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/wanim" />
+
+    <ImageView
+        android:id="@+id/imageViewWaze2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/imageViewWaze"
+        android:layout_toRightOf="@+id/imageViewWaze"
+        android:src="@drawable/wanim" />
+
+    <ImageView
+        android:id="@+id/imageViewWaze3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageViewWaze2"
+        android:src="@drawable/wanim" />
+    <!--END  3 amin Waze -->
+    
+    
+
+    <ImageView
+        android:id="@+id/imageTank1"
+         android:layout_width="38pt"
+         android:layout_height="50pt"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+         />
+
+     <ImageView
+         android:id="@+id/imageTank3"
+         android:layout_width="38pt"
+         android:layout_height="50pt"
+         android:layout_alignParentBottom="true"
+         android:layout_toRightOf="@+id/imageViewWaze2"
+          android:layout_marginLeft="10dp"
+         />
+
+     <ImageView
+         android:id="@+id/imageTank2"
+         android:layout_width="38pt"
+         android:layout_height="50pt"
+         android:layout_alignTop="@+id/imageTank3"
+         android:layout_centerHorizontal="true"
+         android:src="@drawable/tank" />
+     
+</RelativeLayout>

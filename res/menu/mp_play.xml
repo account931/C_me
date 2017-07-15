@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.c_me.MpPlay" >
+
+    <item
+        android:id="@+id/action_folder1"
+        android:orderInCategory="100"
+        android:title="Folder1"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_folder2"
+        android:orderInCategory="100"
+        android:title="Folder2"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_folder3"
+        android:orderInCategory="100"
+        android:title="Folder3"
+        app:showAsAction="never"/>
+
+</menu>

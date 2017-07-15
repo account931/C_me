@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue" 
+   
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.c_me.Generated33" 
+    >  
+
+    <TextView
+        android:id="@+id/textGorosk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="  Генератор гороскопов"
+        android:textColor="@color/whiteColor"
+        android:textSize="23dp" 
+        />
+    
+    
+    <!--START DATE DISPLAY -->
+<TextView
+        android:id="@+id/textDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/textGorosk"
+          android:layout_centerHorizontal="true"
+        android:text=""
+        android:textColor="@color/whiteColor"
+        android:textSize="21dp"
+        
+         />
+<!--END DATE DISPLAY -->
+    
+    <TextView
+        android:id="@+id/textGenerated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDate"
+        android:layout_centerHorizontal="true"
+         android:gravity="center"
+        android:layout_marginTop="31dp"
+        android:text=""
+        android:textSize="33dp" 
+        />
+    
+    
+    <ImageView
+        android:id="@+id/imageViewGOR"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="118dp"
+               />
+    <!-- android:layout_below="@+id/textGenerated" -->
+
+    <Button
+        android:id="@+id/buttonGenerated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:text="Try" />
+
+    
+    
+    <!-- Button  to Speak it -->
+
+    <ImageButton 
+        android:id="@+id/buttonGenSpeak"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+       android:src="@drawable/soundwave2"/>
+    
+</RelativeLayout>

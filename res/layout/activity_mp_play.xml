@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mpp"
+    android:orientation="vertical"
+    android:id="@+id/linearLayoutPlayerR" >
+
+<TextView
+    android:id="@id/android:title"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="HardCore Mp3 Player"
+    android:textColor="@color/whiteColor"
+    />
+
+<!-- add to  make  round  android:background="@drawable/round_shape" -->
+<Button
+    android:id="@+id/button1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    
+     android:text="STOP" /> <!-- android:onClick="stopPlay" -->
+     
+     
+      <LinearLayout
+        android:id="@+id/linearLayoutButtons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0pt"
+        android:layout_marginRight="0pt"
+        android:layout_marginTop="8pt"
+        android:orientation="horizontal" >
+     <Button
+    android:id="@+id/buttonNext1"
+    android:layout_width="95dp"
+    android:layout_height="wrap_content"
+    
+     android:text="Next" />
+     
+        <Button
+    android:id="@+id/buttonPrev"
+    android:layout_width="95dp"
+    android:layout_height="wrap_content"
+    
+     android:text="Previous" />
+     <Button
+    android:id="@+id/buttonPlay"
+    android:layout_width="95dp"
+    
+    android:layout_height="wrap_content"
+     android:text="Play" />
+     
+     <Button
+         android:id="@+id/buttonCount"
+         android:layout_width="35dp"
+         android:layout_height="35dp"
+         android:linksClickable="true"
+         android:onClick="songsQuant"
+         android:text="" 
+         
+         android:background="@drawable/mpplayer"/>
+
+     </LinearLayout>
+     
+      <!-- Title of  the song palyed -->
+
+<!-- #333333 -->
+      <TextView
+          android:id="@id/title"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text=""
+          android:textSize="22dp"
+          android:textStyle="bold" 
+          />
+      
+      <!-- Image animated --><!-- android:layout_height="30dp" -->
+
+      <ImageView
+          android:id="@+id/imageMp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_marginLeft="40dp"
+         />
+
+ <!-- android:textColor="@color/whiteColor" -->
+      
+      <!--  <ProgressBar
+        android:id="@+id/mySeekingBarR"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />-->
+      
+      <SeekBar
+        android:id="@+id/SeekBar01"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+       
+        />
+
+<ListView
+android:id="@id/android:list"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:layout_weight="1"
+android:drawSelectorOnTop="false"
+android:divider="@android:color/transparent"
+  android:dividerHeight="10.0sp"/>        <!-- android:background="#996633" -->   
+
+
+<TextView
+android:id="@id/android:empty"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:text="No songs in SD Card."/>
+</LinearLayout>

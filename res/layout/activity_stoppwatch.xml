@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stopwatchh" >
+
+      <Button
+          android:id="@+id/stoptbutton"
+          android:layout_width="115dp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/editTextTimer"
+         
+          android:text="Stop" />
+
+      <EditText
+          android:id="@+id/editTextTimer"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/buttonSetTimer"
+          android:layout_alignBottom="@+id/buttonSetTimer"
+          android:layout_alignParentLeft="true"
+          android:inputType="number|phone" 
+          android:ems="10"
+          android:hint="select time lapse" />
+
+      <Button
+          android:id="@+id/startbutton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignRight="@+id/stoptbutton"
+          android:layout_below="@+id/stoptbutton"
+          android:text="Start" />
+
+      <Button
+          android:id="@+id/buttonSetTimer"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:layout_toRightOf="@+id/editTextTimer"
+          android:text="SET" />
+
+      <TextView
+          android:id="@+id/time_display_box"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/startbutton"
+          android:layout_centerHorizontal="true"
+          android:text="Time"
+          android:layout_marginTop="49dp"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:textSize="76dp" />
+
+     <DigitalClock
+        android:id="@+id/digitalClock1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_marginBottom="8dp"
+          android:layout_marginLeft="26dp"
+          android:layout_toRightOf="@+id/startbutton"
+          android:text="DigitalClock" />
+    
+</RelativeLayout>
