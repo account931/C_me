@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">C_Me</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- MENU -->
+    <string name="action_settings">IGNITE</string>
+    <string name="action_settings1">ЦВЕТ ФОНА</string>
+    <string name="action_settings2">WAZE</string>
+    <string name="action_settings3">GOOGLE</string>
+    <string name="action_settings4">UKRAINE</string>
+    <string name="action_settings5">ВЫХОД</string>
+    <!-- END MENU -->
+
+
+    <!-- COLORS -->
+    <string name="red">Красный</string>
+    <string name="yellow">Жёлтый</string>
+    <!-- END COLORS -->
+
+    <string name="title_activity_select">Select</string>
+    <string name="title_activity_kfc">KFC</string>
+    <string name="title_activity_grid_view_demo">GridViewDemoActivity</string>
+    <string name="title_activity_full_image">FullImageActivity</string>
+
+    <!-- SQL -->
+    <string name="add_record">Добавить запись</string>
+    <string name="delete_record">Удалить запись</string>
+    <string name="title_activity_sql">SQL</string>
+    <string name="title_activity_large">Large</string>
+    <string name="title_activity_open_cv">OpenCV</string>
+    <string name="title_activity_sms">SMS</string>
+    <string name="title_activity_cv_final">CvFinal</string>
+    <string name="title_activity_xzero">Xzero</string>
+    <string name="title_activity_weather">Weather</string>
+    <string name="title_activity_boof_cv">BoofCv</string>
+    <string name="title_activity_guess2">Guess2</string>
+    <string name="title_activity_emailme">Emailme</string>
+    <string name="title_activity_guess3">Guess3</string>
+    <string name="title_activity_guess_waze">GuessWaze</string>
+    <string name="title_activity_guesswaze">Guesswaze</string>
+    <string name="title_activity_guess_waze_shoot">GuessWazeShoot</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="title_activity_canvas">Canvas</string>
+    <string name="title_activity_canvas_me">CanvasMe</string>
+    <string name="title_activity_drawcanvas">Drawcanvas</string>
+    <string name="title_activity_animation_view">AnimationView</string>
+
+    <!-- Canvas Menu -->
+    <string name="action_settingsCanvas">Change me</string>
+    <string name="title_activity_chat">Chat</string>
+    <string name="title_activity_chat_insert">ChatInsert</string>
+    <string name="title_activity_chat_insert_m">ChatInsertM</string>
+    <string name="title_activity_gps">GPS</string>
+    <string name="title_activity_gpstool">GPSTOOL</string>
+    <string name="title_activity_obj_animator">ObjAnimator</string>
+    <string name="title_activity_generated">Generated</string>
+    <string name="title_activity_generated22">Generated22</string>
+    <string name="title_activity_generated33">Generated33</string>
+    <string name="title_activity_mp3_player">MP3PLAYER</string>
+    <string name="title_activity_mpplayer">MPPLAYER</string>
+    <string name="title_activity_mpplay">MPPLAY</string>
+    <string name="title_activity_mp_play">MpPlay</string>
+    <string name="title_activity_list_view">ListView</string>
+    <string name="title_activity_stop_watch">StopWatch</string>
+    <string name="title_activity_stopp_watch">StoppWatch</string>
+    <string name="title_activity_battery">Battery</string>
+    <string name="title_activity_battery_m">BatteryM</string>
+    <string name="title_activity_battery_me">BatteryMe</string>
+    <string name="title_activity_battery_s">BatteryS</string>
+    <string name="title_activity_battery1">Battery1</string>
+    <string name="title_activity_parser">Parser</string>
+
+    <!-- Parser weather  string -->
+    <string name="action_parser1">Update</string>
+    <string name="title_activity_touch1">Touch1</string>
+    <string name="title_activity_touch_me">TouchMe</string>
+    <string name="title_activity_touch31">Touch31</string>
+    <string name="title_activity_wifi_scan">WifiScan</string>
+    <string name="title_activity_speech">Speech</string>
+    <string name="title_activity_color">Color</string>
+    <string name="title_activity_color_me">ColorMe</string>
+
+    <!-- Colorme menu -->
+    <string name="action_speed1">Need For Speed</string>
+    <string name="action_speed2">Default</string>
+    <string name="action_speed3">Medium</string>
+    <string name="action_start">Start</string>
+    <string name="title_activity_dragg">Dragg</string>
+    <string name="title_activity_drag_splash">DragSplash</string>
+    <string name="title_activity_drag_fly">DragFly</string>
+    <string name="title_activity_plane_fly">PlaneFly</string>
+    <string name="title_activity_drag931">Drag931</string>
+    <string name="title_activity_dragging">Dragging</string>
+
+</resources>
