@@ -1,0 +1,23 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/accelerate_interpolator" >
+    
+<!-- Waze Hunt  animation  GuessWazeShoot  CLASS -->    
+<!-- Flying up and  moving from left to right(XDELTA) -->
+<translate 
+    android:fromYDelta="90%p"
+    android:toYDelta="-99%p"
+    
+    
+    android:fromXDelta="2%p"
+    android:toXDelta="99%p"
+    
+    android:duration="6000"
+    
+    android:repeatCount="infinite"
+    android:repeatMode="restart"
+    android:fillEnabled="true">
+    <!-- android:fillEnabled="true"   WAS ADDED -->
+    <!--android:fillAfter="true"      WAS REMOVED  -->
+</translate>
+</set>

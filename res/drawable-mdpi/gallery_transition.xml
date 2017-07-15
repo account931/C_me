@@ -1,0 +1,10 @@
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+      <item android:drawable="@drawable/gal1" />
+      <item android:drawable="@drawable/gal2" />
+      <item android:drawable="@drawable/gal3" />
+      <item android:drawable="@drawable/gal4" />
+      <item android:drawable="@drawable/gal5" />
+      <item android:drawable="@drawable/gal6" />
+      <item android:drawable="@drawable/gal7" />
+</transition>
+<!-- Gallery transition animation -->

@@ -1,0 +1,14 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/accelerate_interpolator" >
+<!-- Flyingdown-->
+<translate 
+    android:fromYDelta="-40%p"
+    android:toYDelta="99%p"
+    android:duration="6000"
+    android:fillAfter="true"
+    android:repeatCount="infinite"
+    android:repeatMode="restart">
+
+</translate> <!--  android:fromYDelta="-90%p"  40% WAS OK-->
+</set>
